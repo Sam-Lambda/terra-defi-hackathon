@@ -11,7 +11,7 @@
 
 
 ## Description
-We are building an app for the anchor protocol that automatically manages your collatoral to prevent margin call
+We are building an app for the anchor protocol that automatically manages your collateral to prevent margin call
 
 - Anchor protocol
     - Allows users to deposit money and borrow money
