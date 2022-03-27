@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@anchor-protocol/anchor.js": "^5.0.2",
+    "@terra-money/terra.js": "^3.0.9",
+    "axios": "^0.26.1",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Risk management system on the Anchor protocol",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -11,6 +11,7 @@ import ReactDOM from 'react-dom';
 import './style.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { MainPage } from 'components/MainPage';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -20,17 +21,6 @@ function App() {
         <Route path='/' element={<WalletConnectionPage/>}></Route>
         <Route path='/app' element={<MainPage/>}></Route>
       </Routes>
-      {/* <main
-        style={{ margin: 20, display: 'flex', flexDirection: 'column', gap: 40 }}
-      >
-        <WalletConnectionPage />
-        <QuerySample />
-        <TxSample />
-        <SignSample />
-        <SignBytesSample />
-        <CW20TokensSample />
-        <NetworkSample />
-      </main> */}
     </BrowserRouter>
     
   );
